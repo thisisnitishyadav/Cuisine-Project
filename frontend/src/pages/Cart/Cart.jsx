@@ -26,11 +26,7 @@ const Cart = () => {
                             <div key={item._id}>
                                 <div className='cart-items-title cart-items-item'>
                                     <img src={item.image} alt={item.name}/>
-<<<<<<< HEAD
                                     <p>{item.name}</p>
-=======
-                                    <p>Veg Salad{item.name}</p>
->>>>>>> 3ad9f7ce717a2208fac950dd3f96630ecfd519df
                                     <p>₹{item.price}</p>
                                     <p>{cartItems[item._id]}</p>
                                     <p>₹{item.price * cartItems[item._id]}</p>
